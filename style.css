@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.d{
+    width: 100%;
+    height: auto;
+    background-color: lightgoldenrodyellow;
+    animation-duration: 4s;
+    animation-direction:reverse;
+}
+.animation{
+    animation-name: floating;
+    animation-duration: 5s;
+   
+}
+.animation ul{
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes floating{
+    from{
+        background-color: bisque;
+    }
+    to{
+        background-color: aquamarine;
+    }
+}
+table{
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+}
+th{
+    border: 1px solid;
+}
+footer{
+    text-align: center;
+}
+#btn{
+    text-align: center;
+}
